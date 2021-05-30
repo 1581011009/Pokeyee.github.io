@@ -1,0 +1,61 @@
+.box1
+{
+  width:200px; 
+  height:250px;
+  margin:0 auto;
+  display: grid;
+  grid-template-columns:1fr;
+}
+.box2
+{
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr;
+  text-align: center;
+  border:2px solid black;
+  background-color:antiquewhite;
+}
+.box3
+{
+    display:grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+p
+{
+    width:100px;
+    height:300px;
+}
+.box4
+{
+    display:grid;
+    grid-template-columns:1fr;
+    text-align: center;
+    background-color:floralwhite;
+}
+button
+{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    float:right;
+}
+a:link 
+{
+    color:#BB0000;
+}    
+a:visited 
+{
+    color:#00BB00;
+} 
+a:hover 
+{
+    color:#BB00FF;
+}   
+a:active 
+{
+    color:#0000BB;
+}

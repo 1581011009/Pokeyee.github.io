@@ -1,0 +1,100 @@
+body
+{
+    margin:0;
+    padding:0;
+    background: url("背景1.jpg");
+    background-attachment: scroll;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+img 
+{ 
+    max-width:100%; height:auto; 
+}
+.p
+{
+    margin: 0 auto;
+    text-align: center;
+}
+.wrapper 
+{
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr;
+  grid-auto-rows:50px 100px 50px 100px ; 
+}
+.box 
+{
+  border-radius:25px;
+  background-color:bisque;
+  color:dimgrey;
+  font-size: 150%;
+  padding:20px;
+  margin: 10px 10px;
+  text-align: center;
+}
+.a
+{
+  grid-column:1/6; 
+  grid-row:1/3;
+}
+.b
+{
+    grid-column:1/3;
+    grid-row:5/14;
+}
+.c
+{
+    grid-column:3/6;
+    grid-row:5/14;
+}
+.d
+{
+    grid-column:1/4;
+    grid-row:14/18;
+}
+.e
+{
+    grid-column:33.3%;
+    grid-row:4/5
+}
+.f
+{
+    grid-column:1/6;
+    grid-row:18/22;
+}
+button
+{
+    border-radius: 25px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    float:right;
+}
+a:link 
+{
+    color:#BB0000;
+}    
+a:visited 
+{
+    color:#00BB00;
+} 
+a:hover 
+{
+    color:#BB00FF;
+}   
+a:active 
+{
+    color:#0000BB;
+}
+
+@media(max-width:700px)
+{ 
+    .wrapper
+    { 
+        display: block !important; border-top: none; top: 15px; right: 0; 
+    }
+}
