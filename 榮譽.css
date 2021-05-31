@@ -70,6 +70,23 @@ th
 	border-bottom: 3px dashed #cccccc;
 	margin: 15px 0;
 }
+
+a:link 
+{
+    color:#BB0000;
+}    
+a:visited 
+{
+    color:#00BB00;
+} 
+a:hover 
+{
+    color:#BB00FF;
+}   
+a:active 
+{
+    color:#0000BB;
+}
 @media(max-width:700px)
 { 
     .wrapper
